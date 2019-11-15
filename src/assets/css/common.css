@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+.el-input__prefix{
+    left:8px;
+}
+.el-input__suffix{
+    right:1px;
+}
+
+@font-face {
+    font-family: myicon;
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://at.alicdn.com/t/font_1507506_cihb9hmdgw9.ttf') format('truetype');
+}
+
+.myicon {
+    font-family: "myicon" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghu:before {
+    content: "\e60e";
+}
+.icon-verify-fill:before {
+    content: "\e60d";
+}
+.icon-mima:before {
+    content: "\e60f";
+}
+.icon-gongsi:before {
+    content: "\e769";
+}
+.icon-youxiang:before {
+    content: "\e605";
+}
+.icon-shouji:before {
+    content: "\e615";
+}
