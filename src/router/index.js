@@ -7,8 +7,8 @@ export default  new Router({
   routes: [
     {
       path: '/',
-      component: () => import('../components/header.vue'),
-      meta: { title: '页头' }
+      component: () => import('../pages/contact'),
+      meta: { title: '首页' }
     },
     {
       path: '/login',
@@ -24,6 +24,11 @@ export default  new Router({
       path: '/forget',
       component: () => import('../pages/forget'),
       meta: { title: '忘记密码' }
+    },
+    {
+      path: '/contact',
+      component: () => import('../pages/contact'),
+      meta: { title: '通讯录' }
     },
   ]
 })
